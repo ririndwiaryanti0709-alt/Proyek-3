@@ -58,7 +58,13 @@ with right:
         </div>""",
         unsafe_allow_html=True,
     )
-    st.page_link("pages/2_Unsupervised.py", label="Open Unsupervised Lab", icon="◌", use_container_width=True)
+   
+    st.page_link(
+        "pages/2_Unsupervised.py",
+        label="Open Unsupervised Lab",
+        icon="🧪",
+        width="stretch",
+    )
 
 st.write("")
 render_section_heading("HOW IT WORKS", "A clear path from data to decision", "Satu alur ringkas untuk menjaga eksperimen tetap mudah diulang dan hasilnya mudah dibaca.")
